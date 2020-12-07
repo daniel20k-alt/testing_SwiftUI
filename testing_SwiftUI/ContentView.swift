@@ -17,7 +17,8 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            SwiftyControls(swiftyColor: $swiftyColor, swiftyOpacity: $swiftyOpacity)
+    SwiftyControls(swiftyColor: $swiftyColor, swiftyOpacity: $swiftyOpacity)
+        .padding()
   
             Text("Hello, world!")
                 .fontWeight(.bold)
