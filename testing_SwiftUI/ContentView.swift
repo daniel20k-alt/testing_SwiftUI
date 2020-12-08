@@ -17,10 +17,15 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-    SwiftyControls(swiftyColor: $swiftyColor, swiftyOpacity: $swiftyOpacity)
+            VStack { SwiftyControls(swiftyColor: $swiftyColor, swiftyOpacity: $swiftyOpacity)
         .padding()
   
             Text("Hello, world!")
+                .fontWeight(.bold)
+                .kerning(4.0)
+                .padding()
+            
+            Text("This is an image, of course")
                 .fontWeight(.bold)
                 .kerning(4.0)
                 .padding()
@@ -32,8 +37,10 @@ struct ContentView: View {
                 .opacity(swiftyOpacity)
                 .background(swiftyColor)
 
-    
         }
+            Buttonlabel(title: "Next", systemImage: "square.and.arrow.down.fill")
+        }
+        
     }
 }
  
@@ -53,6 +60,27 @@ struct SwiftyControls: View {
             ColorPicker("Swifty color", selection: $swiftyColor)
             Slider(value: $swiftyOpacity, in: 0...1)
                 .accentColor(swiftyColor)
+        }
+    }
+}
+
+struct Buttonlabel: View {
+    let title: String
+    let systemImage: String
+    
+    var body: some View {
+        HStack {
+            Button { print ("Next image!")}
+                label: {
+                    HStack {
+                        Spacer()
+                        Label(title, systemImage: systemImage)
+                        Spacer()
+                    }
+                    .padding(.vertical)
+                    .background(Color.gray.opacity(0.2))
+                    .cornerRadius(15)
+                }
         }
     }
 }
