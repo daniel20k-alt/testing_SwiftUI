@@ -17,7 +17,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            HStack {
+            VStack {
                 Thumbnail()
                 VStack {
                     SwiftyControls(swiftyColor: $swiftyColor, swiftyOpacity: $swiftyOpacity)
