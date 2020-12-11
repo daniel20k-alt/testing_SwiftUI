@@ -33,14 +33,14 @@ struct ContentView: View {
                         .kerning(4.0)
                         .padding()
                     
-                    Image(systemName:   "swift")
+                    Image(systemName: "swift")
                         .resizable()
                         .padding(.all)
                         .frame(width: 100.0, height: 100.0)
                         .opacity(swiftyOpacity)
                         .background(swiftyColor)
                     
-                }
+ 
             }
             Buttonlabel(title: "Next", systemImage: "square.and.arrow.down.fill")
         }
@@ -125,4 +125,5 @@ struct Buttonlabel: View {
             }
         }
     }
+}
 }

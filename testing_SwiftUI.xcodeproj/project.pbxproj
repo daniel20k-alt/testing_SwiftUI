@@ -11,6 +11,7 @@
 		EE43A6E2257C391B00CA5E5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE43A6E1257C391B00CA5E5E /* ContentView.swift */; };
 		EE43A6E4257C392400CA5E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE43A6E3257C392400CA5E5E /* Assets.xcassets */; };
 		EE43A6E7257C392400CA5E5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE43A6E6257C392400CA5E5E /* Preview Assets.xcassets */; };
+		EE43A6F1258409A700CA5E5E /* Weatherpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE43A6F0258409A600CA5E5E /* Weatherpage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		EE43A6E3257C392400CA5E5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE43A6E6257C392400CA5E5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE43A6E8257C392400CA5E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE43A6F0258409A600CA5E5E /* Weatherpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weatherpage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				EE43A6DF257C391B00CA5E5E /* testing_SwiftUIApp.swift */,
 				EE43A6E1257C391B00CA5E5E /* ContentView.swift */,
+				EE43A6F0258409A600CA5E5E /* Weatherpage.swift */,
 				EE43A6E3257C392400CA5E5E /* Assets.xcassets */,
 				EE43A6E8257C392400CA5E5E /* Info.plist */,
 				EE43A6E5257C392400CA5E5E /* Preview Content */,
@@ -140,6 +143,7 @@
 			files = (
 				EE43A6E2257C391B00CA5E5E /* ContentView.swift in Sources */,
 				EE43A6E0257C391B00CA5E5E /* testing_SwiftUIApp.swift in Sources */,
+				EE43A6F1258409A700CA5E5E /* Weatherpage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
